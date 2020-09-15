@@ -36,7 +36,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Declan Glover',
-        helpMessage: 'I cant help',
+        helpMessage: 'For support please email Declan',
         errorMessage: 'Page not Found'
     })
 })
